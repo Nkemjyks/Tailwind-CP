@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Nanum+Gothic&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+    .proj { @apply py-4 bg-slate-500  text-white px-3  rounded-md my-4 md:w-[33%] md:h-full md:p-5; }
+
+    .skill h1 {
+        @apply font-bold;
+    }
+    .f1{
+        font-family: Open Sans;
+    }
+    .f2{
+        font-family: Nanum Gothic;
+    }
+    .f3{
+        font-family: Dancing Script;
+    }
+    .f4{
+        font-family: Dosis;
+    }
+    .pimg{
+        @apply rounded-md aspect-square w-full;
+    }
+  }
